@@ -1,0 +1,34 @@
+{
+  "name": "moogledocs",
+  "version": "1.0.0",
+  "description": "Discord bot that will gather information, using keys, and place them in google docs.",
+  "main": "main.js",
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "utf-8-validate": "^5.0.5",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerHamm/MoogleDocs.git"
+  },
+  "keywords": [
+    "google",
+    "doc",
+    "discord",
+    "bot"
+  ],
+  "author": "Tyler Hamm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerHamm/MoogleDocs/issues"
+  },
+  "homepage": "https://github.com/TylerHamm/MoogleDocs#readme"
+}
