@@ -1,5 +1,5 @@
 const { Client, Intents } = require("discord.js");
-const { discord_token } = require("./config");
+const { DISCORD_TOKEN } = require("./config");
 const client = new Client({intents:[Intents.FLAGS.GUILD_MESSAGES]});
 
 const feedbackStore = require('./feedbackstore');
@@ -17,4 +17,4 @@ client.on('interactionCreate', async interaction => {
     }
   });
 
-client.login(discord_token);
+client.login(DISCORD_TOKEN);
