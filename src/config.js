@@ -1,8 +1,9 @@
 // config.js
 require('dotenv').config();
 module.exports = {
-  discord_token: process.env.DISCORD_TOKEN,
-  tabs: [
+  DISCORD_TOKEN: process.env.DISCORD_TOKEN,
+  TAGS: [
+    "feedback",
     "suggestion",
     "bug",
     "crash"

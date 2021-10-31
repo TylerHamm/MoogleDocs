@@ -1,4 +1,4 @@
-const TAGS = ['feedback', 'bug'];
+const { TAGS } = require("./config");
 
 class FeedbackStore {
 
