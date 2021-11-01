@@ -4,6 +4,7 @@
   "description": "Discord bot that will gather information, using keys, and place them in google docs.",
   "main": "main.js",
   "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
     "bufferutil": "^4.0.3",
     "discord-api-types": "^0.22.0",
     "discord.js": "^13.1.0",
