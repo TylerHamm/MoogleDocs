@@ -1,2 +1,6 @@
 .env
 node_modules
+
+# Google Auth/Credentials Files
+google-credentials.json
+token.json
