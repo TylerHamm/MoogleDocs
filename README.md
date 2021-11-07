@@ -11,8 +11,8 @@ Current Tags Targeted:
 ### Setting up Sheets Auth
 
 1. [Go to Credentials page of Cloud Console](https://console.cloud.google.com/apis/credentials)
-1. Pick an appropriate project (found at the top of the page in the menu bar)
-1. "Create Consent Screen" (values don't matter much, just fill out required fields)
+1. Pick the appropriate project (found at the top of the page in the menu bar)
+1. "Configure Consent Screen" (values don't matter much, just fill out required fields)
     - Add your Google Account as a "Test User"
     - Get all the way through past the "Back to Dashboard" button, don't publish.
 1. Go back to the Credentials screen, click "Create Credentials" then "OAuth client ID"
